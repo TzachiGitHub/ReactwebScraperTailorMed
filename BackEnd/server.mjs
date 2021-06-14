@@ -72,18 +72,6 @@ app.get('/update', (req, res)=>{
         })
 })
 
-
 app.listen('3001', ()=> {
     console.log("listening on port 3001!")
 })
-
-
-// var connectDB = (req, res, next)=>{
-//     console.log('LOGGED')
-//     next()
-// }
-// app.use(connectDB)
-// let getNamesFromData = require('./updateFlow.js');
-// app.engine('html', require('ejs').renderFile);
-// app.set('views', path.join(__dirname, '/views'));
-
